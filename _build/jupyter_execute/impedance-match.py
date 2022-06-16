@@ -44,13 +44,18 @@ import pandas as pd
 
 # Read in materials database 
 matdata=pd.read_csv('materials-data.csv') 
-
 print(matdata.info)
 
+
+#  "```{margin} Running a code cell\n",
+#     "Access interactive features by 'Launch CoLab' or 'Launch Binder' from the rocket logo at the top of the page. When the interactive environment is ready, place your cursor in the code cell and press shift-return to execute the code. If using CoLab (loads faster), you need to edit the code cell as directed to gather data files.\n",
+#     "```\n",
+#     "Click the + symbol to see the code that generates the next interactive feature."
 
 # In[4]:
 
 
+#@title Widget code block
 button = widgets.Button(description="Savefig")
 
 m = widgets.FloatSlider(min=-5,max=5,step=0.5, description="Slope")
