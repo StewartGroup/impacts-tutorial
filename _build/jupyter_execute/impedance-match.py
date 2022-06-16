@@ -3,7 +3,9 @@
 
 # # Impedance Match Notebook
 # 
-# Launch this notebook in Binder or CoLab with the rocket button above.
+# ### Launch this notebook in Binder or CoLab with the rocket button above.
+# 
+# ### Run the whole notebook and then scroll down to the bottom to select materials and impact conditions.
 
 # In[1]:
 
@@ -24,7 +26,7 @@ import pandas as pd
 
 
 #import os
-#os.system('wget https://github.com/StewartGroup/impacts-tutorial/materials-data.csv?raw=true -O materials-data.csv')
+#os.system('wget https://github.com/StewartGroup/impacts-tutorial/blob/main/materials-data.csv?raw=true -O materials-data.csv')
 
 
 # ## Materials Database
