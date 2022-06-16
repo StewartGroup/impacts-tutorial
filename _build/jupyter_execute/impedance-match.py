@@ -3,30 +3,39 @@
 
 # # Impedance Match Notebook
 # 
-# ### Launch this notebook in Binder or CoLab with the rocket button above.
-# 
-# ### Run the whole notebook and then scroll down to the bottom to select materials and impact conditions.
+# Run the whole notebook and then scroll down to the bottom to select materials and impact conditions.
 
 # In[1]:
 
+
+from datetime import datetime
+presentime = datetime.now()
+print("Current date and time:", presentime)
+
+# Record the verions information for these calculation for posterity
+import platform
+print('python version (orig 3.9.12): ',platform.python_version())
+del platform
+import matplotlib
+print('matplotlib version (orig 3.5.1): ', matplotlib.__version__)
+del matplotlib
+import numpy
+print('numpy version (orig 1.21.5): ', numpy.__version__)
+del numpy
+import pandas
+print('pandas version (orig 1.4.2): ', pandas.__version__)
+del pandas
 
 import matplotlib.pyplot as plt
 import numpy as np
 import ipywidgets as widgets
 from ipywidgets import interact, interactive, fixed, interact_manual
 import pandas as pd
+import os
 
-
-# Dear Reader, if you are using this notebook in CoLab, you need to fetch the materials data file from GitHub.<p>
-#     
-# Uncomment the lines in the cell below and shift-return to execute the cell.<br>
-# You can check that the files downloaded by hitting the folder refresh button in co-lab.
-
-# In[2]:
-
-
-#import os
-#os.system('wget https://github.com/StewartGroup/impacts-tutorial/blob/main/materials-data.csv?raw=true -O materials-data.csv')
+# Read in materials database 
+os.system('wget --quiet https://github.com/StewartGroup/impacts-tutorial/blob/main/materials-data.csv?raw=true -O materials-data.csv')
+matdata=pd.read_csv('materials-data.csv') 
 
 
 # ## Materials Database
@@ -39,20 +48,18 @@ import pandas as pd
 #     
 # You can import your own materials to the database by adding to this file locally or pointing to your own materials database file. Send new material entry requests to sts@ucdavis.edu.
 
-# In[3]:
+# In[2]:
 
 
-# Read in materials database 
-matdata=pd.read_csv('materials-data.csv') 
 print(matdata.info)
 
 
-#  "```{margin} Running a code cell\n",
-#     "Access interactive features by 'Launch CoLab' or 'Launch Binder' from the rocket logo at the top of the page. When the interactive environment is ready, place your cursor in the code cell and press shift-return to execute the code. If using CoLab (loads faster), you need to edit the code cell as directed to gather data files.\n",
-#     "```\n",
-#     "Click the + symbol to see the code that generates the next interactive feature."
+# ```{margin} Running a code cell
+# Access interactive features by 'Launch CoLab' or 'Launch Binder' from the rocket logo at the top of the page. When the interactive environment is ready, place your cursor in the code cell and press shift-return to execute the code. If using CoLab (loads faster), you need to edit the code cell as directed to gather data files.
+# ```
+# Click the + symbol to see the code that generates the next interactive feature.
 
-# In[4]:
+# In[3]:
 
 
 #@title Widget code block
@@ -145,17 +152,8 @@ display(out, ui0, ui1, ui2, ui3)
 display(button)
 
 
-# End of Page
-# 
-
 # Prepared by<br>
 # Sarah T. Stewart<br>
 # U. California, Davis<br>
 # Updated June 16, 2022<p>
 # 
-
-# In[ ]:
-
-
-
-
