@@ -8,24 +8,6 @@
 # In[1]:
 
 
-from datetime import datetime
-presentime = datetime.now()
-print("Current date and time:", presentime)
-
-# Record the verions information for these calculation for posterity
-import platform
-print('python version (orig 3.9.12): ',platform.python_version())
-del platform
-import matplotlib
-print('matplotlib version (orig 3.5.1): ', matplotlib.__version__)
-del matplotlib
-import numpy
-print('numpy version (orig 1.21.5): ', numpy.__version__)
-del numpy
-import pandas
-print('pandas version (orig 1.4.2): ', pandas.__version__)
-del pandas
-
 import matplotlib.pyplot as plt
 import numpy as np
 import ipywidgets as widgets
@@ -38,28 +20,13 @@ os.system('wget --quiet https://github.com/StewartGroup/impacts-tutorial/blob/ma
 matdata=pd.read_csv('materials-data.csv') 
 
 
-# ## Materials Database
-# 
-# Comma separated file with columns of:<br>
-# Material name, density (g/cm$^3$), c0 (km/s), s1<p>
-#     
-# The materials are currently defined by a linear $U_s-u_p$ Hugoniot, where<br>
-#     $U_s = c_0+s_1 u_p$<p>
-#     
-# You can import your own materials to the database by adding to this file locally or pointing to your own materials database file. Send new material entry requests to sts@ucdavis.edu.
+# ```{margin} Running a code cell
+# Access interactive features by 'Launch CoLab' from the rocket logo at the top of the page.
+# ```
+# ## Impedance Match Widget
+# Launch CoLab
 
 # In[2]:
-
-
-print(matdata.info)
-
-
-# ```{margin} Running a code cell
-# Access interactive features by 'Launch CoLab' or 'Launch Binder' from the rocket logo at the top of the page. When the interactive environment is ready, place your cursor in the code cell and press shift-return to execute the code. If using CoLab (loads faster), you need to edit the code cell as directed to gather data files.
-# ```
-# Click the + symbol to see the code that generates the next interactive feature.
-
-# In[3]:
 
 
 #@title Widget code block
@@ -150,6 +117,40 @@ out = widgets.interactive_output(plot, {'vel': vel})
 display(out, ui0, ui1, ui2, ui3)
 
 display(button)
+
+
+# ## Materials Database
+# 
+# Comma separated file with columns of:<br>
+# Material name, density (g/cm$^3$), c0 (km/s), s1<p>
+#     
+# The materials are currently defined by a linear $U_s-u_p$ Hugoniot, where<br>
+#     $U_s = c_0+s_1 u_p$<p>
+#     
+# You can import your own materials to the database by adding to this file locally or pointing to your own materials database file. Send new material entry requests to sts@ucdavis.edu.
+
+# In[3]:
+
+
+print(matdata.info)
+
+
+# In[4]:
+
+
+# Record the verions information for these calculation for posterity
+import platform
+print('python version (orig 3.9.12): ',platform.python_version())
+del platform
+import matplotlib
+print('matplotlib version (orig 3.5.1): ', matplotlib.__version__)
+del matplotlib
+import numpy
+print('numpy version (orig 1.21.5): ', numpy.__version__)
+del numpy
+import pandas
+print('pandas version (orig 1.4.2): ', pandas.__version__)
+del pandas
 
 
 # Prepared by<br>
