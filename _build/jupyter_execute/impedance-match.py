@@ -3,17 +3,19 @@
 
 # # Impedance Match Notebook
 # 
-# Run the whole notebook and then scroll down to the bottom to select materials and impact conditions.
 
 # In[1]:
 
 
 import matplotlib.pyplot as plt
+import matplotlib.image as img
 import numpy as np
 import ipywidgets as widgets
 from ipywidgets import interact, interactive, fixed, interact_manual
 import pandas as pd
 import os
+
+plt.rcParams["figure.figsize"] = (8,6)
 
 # Read in materials database 
 os.system('wget --quiet https://github.com/StewartGroup/impacts-tutorial/blob/main/materials-data.csv?raw=true -O materials-data.csv')
@@ -24,16 +26,14 @@ matdata=pd.read_csv('materials-data.csv')
 # Access interactive features by 'Launch CoLab' from the rocket logo at the top of the page.
 # ```
 # ## Impedance Match Widget
-# Launch CoLab
+# Launch CoLab; run the notebook; select materials and impact velocity.
 
 # In[2]:
 
 
-#@title Widget code block
-button = widgets.Button(description="Savefig")
+#@title Click to collapse code
 
-m = widgets.FloatSlider(min=-5,max=5,step=0.5, description="Slope")
-c = widgets.FloatSlider(min=-5,max=5,step=0.5, description="Intercept")
+button = widgets.Button(description="Save Image")
 
 filename=widgets.Text(
     value='Impact-solution.png',
@@ -58,22 +58,18 @@ mat2=widgets.Combobox(
     ensure_option=True,
     disabled=False
 )
+
 vel=10
 vel = widgets.FloatSlider(min=0,max=50,step=0.10)
 
-
 # An HBox lays out its children horizontally
-
 ui0 = widgets.HBox([widgets.Label("Select materials and then select velocity to update plot.")])
-
 ui1 = widgets.HBox([mat1, mat2])
-
 ui2 = widgets.HBox([widgets.Label("Impact Velocity (km/s):"),vel])
-
 ui3 = widgets.HBox([widgets.Label("Save image file name: "),filename])
 
 def plot(vel):
-    fig = plt.figure(figsize=(7,5))
+    fig = plt.figure()
     def on_button_clicked(b):
         fig.savefig(filename.value)
     button.on_click(on_button_clicked)
@@ -86,6 +82,10 @@ def plot(vel):
         c0=matdata.loc[id1[0],'c0'] # km/s
         s = matdata.loc[id1[0],'s1'] 
         P1=rho0*up*(c0+s*up) # GPa
+    else:
+        file = img.imread('Impact-solution.png')
+        plt.imshow(file)
+
     id2 = np.where(matdata.loc[:,'Material'].values == mat2.value)[0]
     if len(id2)>0:
         rho0=matdata.loc[id2[0],'Density'] # g/cm3
@@ -112,8 +112,6 @@ def plot(vel):
 
 
 out = widgets.interactive_output(plot, {'vel': vel})
-
-#display(out, ui, ui2, filename)
 display(out, ui0, ui1, ui2, ui3)
 
 display(button)
@@ -133,24 +131,6 @@ display(button)
 
 
 print(matdata.info)
-
-
-# In[4]:
-
-
-# Record the verions information for these calculation for posterity
-import platform
-print('python version (orig 3.9.12): ',platform.python_version())
-del platform
-import matplotlib
-print('matplotlib version (orig 3.5.1): ', matplotlib.__version__)
-del matplotlib
-import numpy
-print('numpy version (orig 1.21.5): ', numpy.__version__)
-del numpy
-import pandas
-print('pandas version (orig 1.4.2): ', pandas.__version__)
-del pandas
 
 
 # Prepared by<br>
