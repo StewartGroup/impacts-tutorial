@@ -3,9 +3,12 @@
 
 # # Impedance Match Notebook
 # 
+# Note: This notebook uses wget to retrieve a materials database file from GitHub. 
 
 # In[1]:
 
+
+#@title Click to collapse code
 
 import matplotlib.pyplot as plt
 import matplotlib.image as img
