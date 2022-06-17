@@ -3,12 +3,13 @@
 
 # # Impedance Match Notebook
 # 
-# Note: This notebook uses wget to retrieve a materials database file from GitHub. 
+# In Google CoLab, select Runtime -> Run all<p>
+# <b>Note: This notebook uses wget to retrieve a materials database file from GitHub.<b>
 
 # In[1]:
 
 
-#@title Click to collapse code
+#@title Double-click to collapse code
 
 import matplotlib.pyplot as plt
 import matplotlib.image as img
@@ -34,7 +35,7 @@ matdata=pd.read_csv('materials-data.csv')
 # In[2]:
 
 
-#@title Click to collapse code
+#@title Double-click to collapse code
 
 button = widgets.Button(description="Save Image")
 
