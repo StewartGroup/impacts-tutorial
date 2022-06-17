@@ -133,7 +133,7 @@ display(button)
 # In[3]:
 
 
-print(matdata.info)
+print(matdata.head())
 
 
 # Prepared by<br>
