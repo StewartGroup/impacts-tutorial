@@ -4,7 +4,13 @@
 format: jb-book
 root: intro
 chapters:
+- file: lecture-outline
+- file: homework
+- file: crater-scaling
 - file: impedance-match
+- file: environmental-effects
+- file: disruption
 - file: markdown
 - file: notebooks
 - file: markdown-notebooks.md
+- file: references

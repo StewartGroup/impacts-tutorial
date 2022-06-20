@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to your Jupyter Book &#8212; CIDER Impacts Tutorial</title>
+    <title>Introduction &#8212; CIDER 2022 Impacts Lecture &amp; Tutorial</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -55,7 +55,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Impedance Match Notebook" href="impedance-match.html" />
+    <link rel="next" title="Collisions on Early Earth - Lecture Outline" href="lecture-outline.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -84,7 +84,7 @@ const thebe_selector_output = ".output, .cell_output"
       <img src="_static/logo_cider.png" class="logo" alt="logo">
       
       
-      <h1 class="site-logo" id="site-title">CIDER Impacts Tutorial</h1>
+      <h1 class="site-logo" id="site-title">CIDER 2022 Impacts Lecture & Tutorial</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -95,14 +95,39 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav">
  <li class="toctree-l1 current">
   <a class="reference internal" href="#">
-   Welcome to your Jupyter Book
+   Introduction
   </a>
  </li>
 </ul>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
+  <a class="reference internal" href="lecture-outline.html">
+   Collisions on Early Earth - Lecture Outline
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="homework.html">
+   Tutorial Homework
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="crater-scaling.html">
+   Impact Cratering Scaling Laws
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="impedance-match.html">
    Impedance Match Notebook
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="environmental-effects.html">
+   Environmental Effects from Impact Cratering
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="disruption.html">
+   Catastrophic Disruption Scaling
   </a>
  </li>
  <li class="toctree-l1">
@@ -118,6 +143,11 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toctree-l1">
   <a class="reference internal" href="markdown-notebooks.html">
    Notebooks with MyST Markdown
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="references.html">
+   Bibliography
   </a>
  </li>
 </ul>
@@ -202,6 +232,36 @@ const thebe_selector_output = ".output, .cell_output"
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#cider-2022-collisions-on-early-earth-lecture">
+   CIDER 2022 Collisions on Early Earth Lecture
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ask-questions-now-and-later">
+     Ask questions! now and later
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tutorial-2-impact-cratering-scaling">
+   Tutorial #2 Impact Cratering &amp; Scaling
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#table-of-contents-for-this-jupyterbook">
+   Table of Contents for this JupyterBook
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -209,31 +269,93 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Welcome to your Jupyter Book</h1>
+                <h1>Introduction</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#cider-2022-collisions-on-early-earth-lecture">
+   CIDER 2022 Collisions on Early Earth Lecture
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ask-questions-now-and-later">
+     Ask questions! now and later
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tutorial-2-impact-cratering-scaling">
+   Tutorial #2 Impact Cratering &amp; Scaling
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#table-of-contents-for-this-jupyterbook">
+   Table of Contents for this JupyterBook
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
             
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="welcome-to-your-jupyter-book">
-<h1>Welcome to your Jupyter Book<a class="headerlink" href="#welcome-to-your-jupyter-book" title="Permalink to this headline">¶</a></h1>
-<p>This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out <a class="reference external" href="https://jupyterbook.org">the Jupyter Book documentation</a> for more information.</p>
-<p>Check out the content pages bundled with this sample book to see more.</p>
+  <div class="tex2jax_ignore mathjax_ignore section" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="cider-2022-collisions-on-early-earth-lecture">
+<h2>CIDER 2022 Collisions on Early Earth Lecture<a class="headerlink" href="#cider-2022-collisions-on-early-earth-lecture" title="Permalink to this headline">¶</a></h2>
+<p>These materials support the Collisions on early Earth lecture at <a
+href="https://www.deep-earth.org/summer22">CIDER 2022</a> and the
+Tutoral on Impact Cratering &amp; Scaling.
+<a 
+href="https://docs.google.com/document/d/1vIdzpq-K4kRo9Ydi-eLscc48TDFWCJ06ULwoTIUVSdo/edit">Link
+to CIDER Lecture Schedule</a><p></p>
+<div class="section" id="ask-questions-now-and-later">
+<h3>Ask questions! now and later<a class="headerlink" href="#ask-questions-now-and-later" title="Permalink to this headline">¶</a></h3>
+<p>Please use this <a href="https://docs.google.com/document/d/12xMdyZLr_zDUPdABIcId-6tcAGIu0qJZ-V1VDw1Plfg/edit?usp=sharing">google document to ask questions</a> related to impacts on
+early Earth. The CIDER group can help answer. (You can ask STS about
+chondrules too……)</p>
+</div>
+</div>
+<div class="section" id="tutorial-2-impact-cratering-scaling">
+<h2>Tutorial #2 Impact Cratering &amp; Scaling<a class="headerlink" href="#tutorial-2-impact-cratering-scaling" title="Permalink to this headline">¶</a></h2>
+<p>The purpose of this Tutorial is to introduce you to a toolkit to be
+able to quickly estimate the order of magnitude outcomes of a
+planetary collision:<br></p>
+<ul>
+<li>Impact cratering size scaling</li>
+<li>Peak pressures, decay with depth, volume of melt and vapor</li>
+<li>Environmental effects of cratering scaling</li>
+<li>Catastrophic disruption scaling: fragmentation of asteroids to
+giant impacts</li>
+</ul>
+</div>
+<div class="section" id="table-of-contents-for-this-jupyterbook">
+<h2>Table of Contents for this JupyterBook<a class="headerlink" href="#table-of-contents-for-this-jupyterbook" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="lecture-outline.html">Collisions on Early Earth - Lecture Outline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="homework.html">Tutorial Homework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="crater-scaling.html">Impact Cratering Scaling Laws</a></li>
 <li class="toctree-l1"><a class="reference internal" href="impedance-match.html">Impedance Match Notebook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="environmental-effects.html">Environmental Effects from Impact Cratering</a></li>
+<li class="toctree-l1"><a class="reference internal" href="disruption.html">Catastrophic Disruption Scaling</a></li>
 <li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
 <li class="toctree-l1"><a class="reference internal" href="notebooks.html">Content with notebooks</a></li>
 <li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">Bibliography</a></li>
 </ul>
+</div>
 </div>
 </div>
 
@@ -262,10 +384,10 @@ It does not go in-depth into any particular topic - check out <a class="referenc
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='right-next' id="next-link" href="impedance-match.html" title="next page">
+    <a class='right-next' id="next-link" href="lecture-outline.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Impedance Match Notebook</p>
+        <p class="prev-next-title">Collisions on Early Earth - Lecture Outline</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

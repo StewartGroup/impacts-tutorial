@@ -1,11 +1,34 @@
-# Welcome to your Jupyter Book
+# Introduction
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+## CIDER 2022 Collisions on Early Earth Lecture
 
-Check out the content pages bundled with this sample book to see more.
+These materials support the Collisions on early Earth lecture at <a
+href="https://www.deep-earth.org/summer22">CIDER 2022</a> and the
+Tutoral on Impact Cratering & Scaling.
+<a 
+href="https://docs.google.com/document/d/1vIdzpq-K4kRo9Ydi-eLscc48TDFWCJ06ULwoTIUVSdo/edit">Link 
+to CIDER Lecture Schedule</a><p>
+
+### Ask questions! now and later
+
+Please use this <a href="https://docs.google.com/document/d/12xMdyZLr_zDUPdABIcId-6tcAGIu0qJZ-V1VDw1Plfg/edit?usp=sharing">google document to ask questions</a> related to impacts on
+early Earth. The CIDER group can help answer. (You can ask STS about
+chondrules too......)
+
+## Tutorial #2 Impact Cratering & Scaling 
+
+The purpose of this Tutorial is to introduce you to a toolkit to be
+able to quickly estimate the order of magnitude outcomes of a
+planetary collision:<br>
+<ul>
+<li>Impact cratering size scaling</li>
+<li>Peak pressures, decay with depth, volume of melt and vapor</li>
+<li>Environmental effects of cratering scaling</li>
+<li>Catastrophic disruption scaling: fragmentation of asteroids to
+giant impacts</li>
+</ul>
+
+## Table of Contents for this JupyterBook
 
 ```{tableofcontents}
 ```
