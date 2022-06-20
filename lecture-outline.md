@@ -1,12 +1,14 @@
 # Collisions on Early Earth - Lecture Outline
 
 Outline and references for Sarah Stewart's CIDER lecture. The
-references are not an exhaustive list! Ask me for references related
+references are not an exhaustive list! Ask STS for references related
 to your questions.
 
 ### Ask questions! now and later
 
-Please use this <a href="https://docs.google.com/document/d/12xMdyZLr_zDUPdABIcId-6tcAGIu0qJZ-V1VDw1Plfg/edit?usp=sharing">google document to ask questions</a> related to impacts on
+Please use this <a
+href="https://docs.google.com/document/d/12xMdyZLr_zDUPdABIcId-6tcAGIu0qJZ-V1VDw1Plfg/edit?usp=sharing"
+target="_blank">google document to ask questions</a> related to impacts on
 early Earth. The CIDER group can help answer.
 
 
