@@ -23,7 +23,7 @@ chondrules too......)
 
 The purpose of this Tutorial is to introduce you to a toolkit to be
 able to quickly estimate the order of magnitude outcomes of a
-planetary collision:<br>
+planetary collision.
 <ul>
 <li>Impact cratering size scaling</li>
 <li>Peak pressures, decay with depth, volume of melt and vapor</li>
@@ -31,6 +31,11 @@ planetary collision:<br>
 <li>Catastrophic disruption scaling: fragmentation of asteroids to
 giant impacts</li>
 </ul>
+
+This tutorial does not cover an introduction to shock compression 
+techniques for geophysical applications. Refer to this review article: 
+{cite}`Asimow2015`. 
+
 
 ## Table of Contents for this JupyterBook
 

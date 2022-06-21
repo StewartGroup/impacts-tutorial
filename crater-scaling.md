@@ -77,3 +77,19 @@ Figure 2 from {cite}`Collins2005`<p>
 
 <img src="https://drive.google.com/uc?export=view&id=157WDCDPSm9iI14gBQS3P9k1M9FuZAKiB">
 
+## Melting and Vaporization during Impact Cratering
+
+The energy in the shocked state is given by the conservation
+equation:
+
+$E-E_1 = (1/2)(P+P_1)(V_1-V)$
+
+The irreversible work is the energy in the shock wave minus the energy
+recovered during decompression. If the irreversible work is
+sufficiently great, the material may reach the melting point (or
+boiling point) after release to ambient pressures.
+
+Key paper on estimating the amount of melting and vaporization during
+impact cratering: {cite}`Pierazzo1997` (newer calculations in
+{cite}`Barr2011` and {cite}`Kraus2011`).
+

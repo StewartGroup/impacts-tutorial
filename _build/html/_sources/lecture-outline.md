@@ -68,7 +68,10 @@ Current Limitations & Needs:<br>
 		probabilities</li>
 		</ul>
 		</li>
-</ul>
+		</ul>
+
+Review articles on the origin of the Moon: {cite}`Canup2021`;
+{cite}`Barr2016`; {cite}`Asphaug2014`.
 
 ## Part II: Late Accretion delivers metals and volatiles
 
