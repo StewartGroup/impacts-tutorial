@@ -4,7 +4,14 @@ Outline and references for Sarah Stewart's CIDER lecture. The
 references are not an exhaustive list! Ask STS for references related
 to your questions.
 
-### Ask questions! now and later
+
+### Copy of lecture slides
+
+<a
+href="https://drive.google.com/file/d/1x6NgUX84Qvl_4lNyiG6PAhS6GZsqEhhu/view?usp=sharing">PDF file</a>
+
+
+### Ask questions! now and later 
 
 Please use this <a
 href="https://docs.google.com/document/d/12xMdyZLr_zDUPdABIcId-6tcAGIu0qJZ-V1VDw1Plfg/edit?usp=sharing"
