@@ -51,8 +51,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Bibliography" href="references.html" />
@@ -244,9 +244,16 @@ const thebe_selector_output = ".output, .cell_output"
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#online-catastrophic-disruption-tool">
-   Online Catastrophic Disruption Tool
+  <a class="reference internal nav-link" href="#online-catastrophic-disruption-tool-gravity-regime-only">
+   Online Catastrophic Disruption Tool – Gravity Regime Only
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#explanation-of-the-collision-outcome-regimes">
+     Explanation of the Collision Outcome Regimes
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -269,9 +276,16 @@ const thebe_selector_output = ".output, .cell_output"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#online-catastrophic-disruption-tool">
-   Online Catastrophic Disruption Tool
+  <a class="reference internal nav-link" href="#online-catastrophic-disruption-tool-gravity-regime-only">
+   Online Catastrophic Disruption Tool – Gravity Regime Only
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#explanation-of-the-collision-outcome-regimes">
+     Explanation of the Collision Outcome Regimes
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -290,14 +304,58 @@ the impact cratering scaling laws are no longer applicable, and
 researchers transition to a scaling system based on a catastrophic
 disruption curve.</p>
 <p>Catastrophic disruption is jargon in the impact community that refers
-to a criteria to remove half the mass of the target or half the mass
-of the colliding bodies.</p>
-<div class="section" id="online-catastrophic-disruption-tool">
-<h2>Online Catastrophic Disruption Tool<a class="headerlink" href="#online-catastrophic-disruption-tool" title="Permalink to this headline">¶</a></h2>
+to a criteria where the largest fragment has half the mass of the
+target. It is usually denoted by a specific impact energy <span class="math notranslate nohighlight">\(Q^*\)</span> in
+J/kg. The criteria depends on the body’s size, composition, and
+velocity.</p>
+<p>Later, the gravity regime scaling was modified to include the energy
+necessary to disperse half the target mass, leading to the notation <span class="math notranslate nohighlight">\(Q^*_D\)</span>
+<span id="id1">[<a class="reference internal" href="references.html#id2" title="H.J. Melosh and E.V. Ryan. Asteroids: Shattered but Not Dispersed. Icarus, 129(2):562–564, oct 1997. URL: https://linkinghub.elsevier.com/retrieve/pii/S0019103597957973, doi:10.1006/icar.1997.5797.">MR97</a>]</span>. Finally, when dispersing half the total mass, the
+notation is <span class="math notranslate nohighlight">\(Q^*_{RD}\)</span>, introduced in <span id="id2">[<a class="reference internal" href="references.html#id5" title="Zoë M. Leinhardt and Sarah T. Stewart. COLLISIONS BETWEEN GRAVITY-DOMINATED BODIES. I. OUTCOME REGIMES AND SCALING LAWS. The Astrophysical Journal, 745(1):79, jan 2012. URL: https://iopscience.iop.org/article/10.1088/0004-637X/745/1/79, doi:10.1088/0004-637X/745/1/79.">LS12</a>]</span>.</p>
+<p>The classic derivation of the scaling law for both the
+strength and gravity regime is <span id="id3">[<a class="reference internal" href="references.html#id3" title="Kevin R. Housen and Keith A. Holsapple. On the fragmentation of asteroids and planetary satellites. Icarus, 84(1):226–253, mar 1990. URL: https://linkinghub.elsevier.com/retrieve/pii/0019103590901689, doi:10.1016/0019-1035(90)90168-9.">HH90</a>]</span>. This paper is an
+amazing derivation of the catastrophic disruption curve, but it is
+long and dense. This paper, based on numerical simulations, will be
+more accessible for novice readers: <span id="id4">[<a class="reference internal" href="references.html#id4" title="W Benz and Erik Asphaug. Catastrophic Disruptions Revisited. Icarus, 142(1):5–20, nov 1999. URL: https://linkinghub.elsevier.com/retrieve/pii/S0019103599962048, doi:10.1006/icar.1999.6204.">BA99</a>]</span>.</p>
+<p>Example disruption curves for basalt and ice from <span id="id5">[<a class="reference internal" href="references.html#id4" title="W Benz and Erik Asphaug. Catastrophic Disruptions Revisited. Icarus, 142(1):5–20, nov 1999. URL: https://linkinghub.elsevier.com/retrieve/pii/S0019103599962048, doi:10.1006/icar.1999.6204.">BA99</a>]</span>,
+illustrating the dependence on impact velocity and transition from the
+strength regime (downward sloping left side of the curve) and the
+gravity regime (upward sloping right side of the curve). <p></p>
+<p><img
+src="https://drive.google.com/uc?export=view&id=1H95WXZQDuwglBsAhuxTZfKoTD-lKNhX6"></p>
+<img src="https://drive.google.com/uc?export=view&id=1J1bhj9pXLJYUI-yTsICmMvvvsjv3DAcJ">
+<div class="section" id="online-catastrophic-disruption-tool-gravity-regime-only">
+<h2>Online Catastrophic Disruption Tool – Gravity Regime Only<a class="headerlink" href="#online-catastrophic-disruption-tool-gravity-regime-only" title="Permalink to this headline">¶</a></h2>
 <p><a href="https://sarahtstewart.net/resources/collision/"
 target="_blank">Planetary Collision Calculator</a><p>
 Reference for the equations behind this calculator:
-<span id="id1">[<a class="reference internal" href="references.html#id2" title="Zoë M. Leinhardt and Sarah T. Stewart. COLLISIONS BETWEEN GRAVITY-DOMINATED BODIES. I. OUTCOME REGIMES AND SCALING LAWS. The Astrophysical Journal, 745(1):79, jan 2012. URL: https://iopscience.iop.org/article/10.1088/0004-637X/745/1/79, doi:10.1088/0004-637X/745/1/79.">LS12</a>]</span></p>
+<span id="id6">[<a class="reference internal" href="references.html#id5" title="Zoë M. Leinhardt and Sarah T. Stewart. COLLISIONS BETWEEN GRAVITY-DOMINATED BODIES. I. OUTCOME REGIMES AND SCALING LAWS. The Astrophysical Journal, 745(1):79, jan 2012. URL: https://iopscience.iop.org/article/10.1088/0004-637X/745/1/79, doi:10.1088/0004-637X/745/1/79.">LS12</a>]</span></p>
+<div class="section" id="explanation-of-the-collision-outcome-regimes">
+<h3>Explanation of the Collision Outcome Regimes<a class="headerlink" href="#explanation-of-the-collision-outcome-regimes" title="Permalink to this headline">¶</a></h3>
+<p>Generally, the outcome of collisions between similar-sized bodies can
+fall into some general categories: (1) perfect merging (negligible
+mass in ejected fragments – dark blue region in figure below); (2)
+partial accretion (the larger body gains mass); (3) net erosion (the
+larger body loses mass); (4) hit-and-run (small change to larger
+body’s mass). In the figure below, the thick black line with the
+critical energy for half the combined mass remaining (<span class="math notranslate nohighlight">\(Q^*_{RD}\)</span>). The
+outcomes depend on the mass ratio of the bodies, the impact
+velocities, and the impact angle, where <span class="math notranslate nohighlight">\(b\)</span> is the impact parameter
+(sine of the impact angle where head on is 0 degrees). <span class="math notranslate nohighlight">\(V_{esc}\)</span> is
+the mutual escape velocity. <span class="math notranslate nohighlight">\(M_p\)</span> is the projectile mass; <span class="math notranslate nohighlight">\(M_{targ}\)</span>
+is the target mass; <span class="math notranslate nohighlight">\(V_i\)</span> is the impact velocity. The impact angle
+axis is normalized by probability (e.g., 1/4 of all events occur
+between 0 and 30 degrees).</p>
+<p>Figure 11 from <span id="id7">[<a class="reference internal" href="references.html#id5" title="Zoë M. Leinhardt and Sarah T. Stewart. COLLISIONS BETWEEN GRAVITY-DOMINATED BODIES. I. OUTCOME REGIMES AND SCALING LAWS. The Astrophysical Journal, 745(1):79, jan 2012. URL: https://iopscience.iop.org/article/10.1088/0004-637X/745/1/79, doi:10.1088/0004-637X/745/1/79.">LS12</a>]</span><br>
+<img
+src="https://drive.google.com/uc?export=view&id=1DyewKCG_4KAebHi2I0IRgWUhMDs7MUXI"></p>
+<p>The mass of the largest remnant is approximately linear with
+normalized specific impact energy. At larger impact energies, the size
+of the largest remnant falls of exponentially.<p></p>
+<p>Figure 3 from <span id="id8">[<a class="reference internal" href="references.html#id5" title="Zoë M. Leinhardt and Sarah T. Stewart. COLLISIONS BETWEEN GRAVITY-DOMINATED BODIES. I. OUTCOME REGIMES AND SCALING LAWS. The Astrophysical Journal, 745(1):79, jan 2012. URL: https://iopscience.iop.org/article/10.1088/0004-637X/745/1/79, doi:10.1088/0004-637X/745/1/79.">LS12</a>]</span><br>
+<img
+src="https://drive.google.com/uc?export=view&id=1nAiK1aUrLH8Bi2CF4hdSLg0kA_igfAWy"></p>
+</div>
 </div>
 </div>
 
