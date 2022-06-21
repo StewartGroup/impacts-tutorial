@@ -39,8 +39,10 @@ function from {cite}`Kraus2011` (Equations 12 and 13):
 
 Here $\phi$ is porosity (assume 0); $\theta$ is the impact angle --
 assume 45 degrees; $E_M$ is the melt energy (Table 1 above); $U$ is
-the impact velocity; $M_i$ is the impactor mass.
+the impact velocity; $M_i$ is the impactor mass; $M_{M+V}$ is the mass
+of melt and vapor; $M_V$ is the mass of vapor.
 
+Estimate the depth of the water pond within the crater.
 
 ## Safe viewing distance?
 
