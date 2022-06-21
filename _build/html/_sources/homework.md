@@ -19,12 +19,27 @@ assuming it was made of pure ice?
 
 Use the {doc}`impedance-match` tool.
 
+What happens to the ice at these peak pressures? Use Table 1 from
+{cite}`Kraus2011`.
+<img src="https://drive.google.com/uc?export=view&id=13habboP66O9evW71xfYsGOkS-J1zPfr6">
 
-## Make a pond on Titan 
 
+## Make a pond on Europa
 
+Europa gravitational acceleration is 1.314 m/s$^2$. Assume impact
+velocity of 26 km/s for a 370 m Kuiper Belt Object onto Europa.
 
+Estimate the final crater size using the crater scaling tools using
+the Purdue (Melosh-Beyer) tool assuming the target is liquid water to
+approximate ice.
 
+Estimate the mass of ice that is melted using the crater scaling
+function from {cite}`Kraus2011` (Equations 12 and 13):
+<img src="https://drive.google.com/uc?export=view&id=1fkx7VmP4STWlX6bC44mllod2WkXP2Mq3">
+
+Here $\phi$ is porosity (assume 0); $\theta$ is the impact angle --
+assume 45 degrees; $E_M$ is the melt energy (Table 1 above); $U$ is
+the impact velocity; $M_i$ is the impactor mass.
 
 
 ## Safe viewing distance?

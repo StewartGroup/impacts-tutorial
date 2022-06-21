@@ -51,6 +51,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Impact Cratering Scaling Laws" href="crater-scaling.html" />
@@ -237,8 +239,8 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#make-a-pond-on-titan">
-   Make a pond on Titan
+  <a class="reference internal nav-link" href="#make-a-pond-on-europa">
+   Make a pond on Europa
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -282,8 +284,8 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#make-a-pond-on-titan">
-   Make a pond on Titan
+  <a class="reference internal nav-link" href="#make-a-pond-on-europa">
+   Make a pond on Europa
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -323,9 +325,23 @@ comet compared to the asteroid? See <a class="reference internal" href="crater-s
 comet Tempel 1 at 10.2 km/s. What was the peak pressure in the comet,
 assuming it was made of pure ice?</p>
 <p>Use the <a class="reference internal" href="impedance-match.html"><span class="doc">Impedance Match Notebook</span></a> tool.</p>
+<p>What happens to the ice at these peak pressures? Use Table 1 from
+<span id="id1">[<a class="reference internal" href="references.html#id5" title="Richard G. Kraus, Laurel E. Senft, and Sarah T. Stewart. Impacts onto H2O ice: Scaling laws for melting, vaporization, excavation, and final crater size. Icarus, 214(2):724–738, aug 2011. URL: http://dx.doi.org/10.1016/j.icarus.2011.05.016 http://linkinghub.elsevier.com/retrieve/pii/S0019103511001898 https://linkinghub.elsevier.com/retrieve/pii/S0019103511001898, doi:10.1016/j.icarus.2011.05.016.">KSS11</a>]</span>.
+<img src="https://drive.google.com/uc?export=view&id=13habboP66O9evW71xfYsGOkS-J1zPfr6"></p>
 </div>
-<div class="section" id="make-a-pond-on-titan">
-<h2>Make a pond on Titan<a class="headerlink" href="#make-a-pond-on-titan" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="make-a-pond-on-europa">
+<h2>Make a pond on Europa<a class="headerlink" href="#make-a-pond-on-europa" title="Permalink to this headline">¶</a></h2>
+<p>Europa gravitational acceleration is 1.314 m/s<span class="math notranslate nohighlight">\(^2\)</span>. Assume impact
+velocity of 26 km/s for a 370 m Kuiper Belt Object onto Europa.</p>
+<p>Estimate the final crater size using the crater scaling tools using
+the Purdue (Melosh-Beyer) tool assuming the target is liquid water to
+approximate ice.</p>
+<p>Estimate the mass of ice that is melted using the crater scaling
+function from <span id="id2">[<a class="reference internal" href="references.html#id5" title="Richard G. Kraus, Laurel E. Senft, and Sarah T. Stewart. Impacts onto H2O ice: Scaling laws for melting, vaporization, excavation, and final crater size. Icarus, 214(2):724–738, aug 2011. URL: http://dx.doi.org/10.1016/j.icarus.2011.05.016 http://linkinghub.elsevier.com/retrieve/pii/S0019103511001898 https://linkinghub.elsevier.com/retrieve/pii/S0019103511001898, doi:10.1016/j.icarus.2011.05.016.">KSS11</a>]</span> (Equations 12 and 13):
+<img src="https://drive.google.com/uc?export=view&id=1fkx7VmP4STWlX6bC44mllod2WkXP2Mq3"></p>
+<p>Here <span class="math notranslate nohighlight">\(\phi\)</span> is porosity (assume 0); <span class="math notranslate nohighlight">\(\theta\)</span> is the impact angle –
+assume 45 degrees; <span class="math notranslate nohighlight">\(E_M\)</span> is the melt energy (Table 1 above); <span class="math notranslate nohighlight">\(U\)</span> is
+the impact velocity; <span class="math notranslate nohighlight">\(M_i\)</span> is the impactor mass.</p>
 </div>
 <div class="section" id="safe-viewing-distance">
 <h2>Safe viewing distance?<a class="headerlink" href="#safe-viewing-distance" title="Permalink to this headline">¶</a></h2>

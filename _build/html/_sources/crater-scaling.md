@@ -93,3 +93,7 @@ Key paper on estimating the amount of melting and vaporization during
 impact cratering: {cite}`Pierazzo1997` (newer calculations in
 {cite}`Barr2011` and {cite}`Kraus2011`).
 
+Example of impact pressures needed to melt and vaporize ice from {cite}`Kraus2011`:
+<img src="https://drive.google.com/uc?export=view&id=13habboP66O9evW71xfYsGOkS-J1zPfr6">
+
+
