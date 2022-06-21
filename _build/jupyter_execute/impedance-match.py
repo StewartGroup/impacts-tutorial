@@ -68,7 +68,7 @@ vel=10
 vel = widgets.FloatSlider(min=0,max=50,step=0.10)
 
 # An HBox lays out its children horizontally
-ui0 = widgets.HBox([widgets.Label("Select materials and then select velocity to update plot.")])
+ui0 = widgets.HBox([widgets.Label("Select materials and then select velocity to update plot. Clear materials to get dropdown list again.")])
 ui1 = widgets.HBox([mat1, mat2])
 ui2 = widgets.HBox([widgets.Label("Impact Velocity (km/s):"),vel])
 ui3 = widgets.HBox([widgets.Label("Save image file name: "),filename])
