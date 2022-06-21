@@ -23,6 +23,7 @@ plt.rcParams["figure.figsize"] = (8,6)
 
 # Read in materials database 
 os.system('wget --quiet https://github.com/StewartGroup/impacts-tutorial/blob/main/materials-data.csv?raw=true -O materials-data.csv')
+os.system('wget --quiet https://github.com/StewartGroup/impacts-tutorial/blob/main/Impact-solution.png?raw=true -O Impact-solution.png')
 matdata=pd.read_csv('materials-data.csv') 
 
 
@@ -134,7 +135,7 @@ display(button)
 # In[3]:
 
 
-print(matdata.head())
+display(matdata)
 
 
 # Prepared by<br>
