@@ -11,7 +11,16 @@ diameters of the asteroid or comet that could have made the crater
 using the crater scaling tool for any body. How much smaller is the
 comet compared to the asteroid? See {doc}`crater-scaling`. 
 
-## Make a pond on Titan
+## Deep Impact
+
+NASA's Deep Impact mission sent a copper-tipped guided missile into
+comet Tempel 1 at 10.2 km/s. What was the peak pressure in the comet,
+assuming it was made of pure ice?
+
+Use the {doc}`impedance-match` tool.
+
+
+## Make a pond on Titan 
 
 
 
