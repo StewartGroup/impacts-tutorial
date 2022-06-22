@@ -2,10 +2,10 @@
 
 ## CIDER 2022 Collisions on Early Earth Lecture
 
-These materials support the Collisions on early Earth lecture at <a
+These materials support the <b>Collisions on Early Earth</a> lecture at <a
 href="https://www.deep-earth.org/summer22" 
 target="_blank">CIDER 2022</a> and the
-Tutoral on Impact Cratering & Scaling.
+Tutorial on Impact Cratering & Scaling.
 <a 
 href="https://docs.google.com/document/d/1vIdzpq-K4kRo9Ydi-eLscc48TDFWCJ06ULwoTIUVSdo/edit"
 target="_blank">Link 

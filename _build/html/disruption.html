@@ -51,11 +51,13 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js"></script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Bibliography" href="references.html" />
+    <link rel="next" title="Other Helpful Tools" href="other-tools.html" />
     <link rel="prev" title="Environmental Effects from Impact Cratering" href="environmental-effects.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -117,6 +119,11 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toctree-l1">
+  <a class="reference internal" href="peak-pressure.html">
+   Shock Hugoniots and Peak Pressures
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="impedance-match.html">
    Impedance Match Notebook
   </a>
@@ -129,6 +136,11 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Catastrophic Disruption Scaling
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="other-tools.html">
+   Other Helpful Tools
   </a>
  </li>
  <li class="toctree-l1">
@@ -310,14 +322,14 @@ J/kg. The criteria depends on the body’s size, composition, and
 velocity.</p>
 <p>Later, the gravity regime scaling was modified to include the energy
 necessary to disperse half the target mass, leading to the notation <span class="math notranslate nohighlight">\(Q^*_D\)</span>
-<span id="id1">[<a class="reference internal" href="references.html#id2" title="H.J. Melosh and E.V. Ryan. Asteroids: Shattered but Not Dispersed. Icarus, 129(2):562–564, oct 1997. URL: https://linkinghub.elsevier.com/retrieve/pii/S0019103597957973, doi:10.1006/icar.1997.5797.">MR97</a>]</span>. Finally, when dispersing half the total mass, the
-notation is <span class="math notranslate nohighlight">\(Q^*_{RD}\)</span>, introduced in <span id="id2">[<a class="reference internal" href="references.html#id5" title="Zoë M. Leinhardt and Sarah T. Stewart. COLLISIONS BETWEEN GRAVITY-DOMINATED BODIES. I. OUTCOME REGIMES AND SCALING LAWS. The Astrophysical Journal, 745(1):79, jan 2012. URL: https://iopscience.iop.org/article/10.1088/0004-637X/745/1/79, doi:10.1088/0004-637X/745/1/79.">LS12</a>]</span>.</p>
+<span id="id1">[<a class="reference internal" href="references.html#id12" title="H.J. Melosh and E.V. Ryan. Asteroids: Shattered but Not Dispersed. Icarus, 129(2):562–564, oct 1997. URL: https://linkinghub.elsevier.com/retrieve/pii/S0019103597957973, doi:10.1006/icar.1997.5797.">MR97</a>]</span>. Finally, when dispersing half the total mass, the
+notation is <span class="math notranslate nohighlight">\(Q^*_{RD}\)</span>, introduced in <span id="id2">[<a class="reference internal" href="references.html#id15" title="Zoë M. Leinhardt and Sarah T. Stewart. COLLISIONS BETWEEN GRAVITY-DOMINATED BODIES. I. OUTCOME REGIMES AND SCALING LAWS. The Astrophysical Journal, 745(1):79, jan 2012. URL: https://iopscience.iop.org/article/10.1088/0004-637X/745/1/79, doi:10.1088/0004-637X/745/1/79.">LS12</a>]</span>.</p>
 <p>The classic derivation of the scaling law for both the
-strength and gravity regime is <span id="id3">[<a class="reference internal" href="references.html#id3" title="Kevin R. Housen and Keith A. Holsapple. On the fragmentation of asteroids and planetary satellites. Icarus, 84(1):226–253, mar 1990. URL: https://linkinghub.elsevier.com/retrieve/pii/0019103590901689, doi:10.1016/0019-1035(90)90168-9.">HH90</a>]</span>. This paper is an
+strength and gravity regime is <span id="id3">[<a class="reference internal" href="references.html#id13" title="Kevin R. Housen and Keith A. Holsapple. On the fragmentation of asteroids and planetary satellites. Icarus, 84(1):226–253, mar 1990. URL: https://linkinghub.elsevier.com/retrieve/pii/0019103590901689, doi:10.1016/0019-1035(90)90168-9.">HH90</a>]</span>. This paper is an
 amazing derivation of the catastrophic disruption curve, but it is
 long and dense. This paper, based on numerical simulations, will be
-more accessible for novice readers: <span id="id4">[<a class="reference internal" href="references.html#id4" title="W Benz and Erik Asphaug. Catastrophic Disruptions Revisited. Icarus, 142(1):5–20, nov 1999. URL: https://linkinghub.elsevier.com/retrieve/pii/S0019103599962048, doi:10.1006/icar.1999.6204.">BA99</a>]</span>.</p>
-<p>Example disruption curves for basalt and ice from <span id="id5">[<a class="reference internal" href="references.html#id4" title="W Benz and Erik Asphaug. Catastrophic Disruptions Revisited. Icarus, 142(1):5–20, nov 1999. URL: https://linkinghub.elsevier.com/retrieve/pii/S0019103599962048, doi:10.1006/icar.1999.6204.">BA99</a>]</span>,
+more accessible for novice readers: <span id="id4">[<a class="reference internal" href="references.html#id14" title="W Benz and Erik Asphaug. Catastrophic Disruptions Revisited. Icarus, 142(1):5–20, nov 1999. URL: https://linkinghub.elsevier.com/retrieve/pii/S0019103599962048, doi:10.1006/icar.1999.6204.">BA99</a>]</span>.</p>
+<p>Example disruption curves for basalt and ice from <span id="id5">[<a class="reference internal" href="references.html#id14" title="W Benz and Erik Asphaug. Catastrophic Disruptions Revisited. Icarus, 142(1):5–20, nov 1999. URL: https://linkinghub.elsevier.com/retrieve/pii/S0019103599962048, doi:10.1006/icar.1999.6204.">BA99</a>]</span>,
 illustrating the dependence on impact velocity and transition from the
 strength regime (downward sloping left side of the curve) and the
 gravity regime (upward sloping right side of the curve). <p></p>
@@ -329,7 +341,7 @@ src="https://drive.google.com/uc?export=view&id=1H95WXZQDuwglBsAhuxTZfKoTD-lKNhX
 <p><a href="https://sarahtstewart.net/resources/collision/"
 target="_blank">Planetary Collision Calculator</a><p>
 Reference for the equations behind this calculator:
-<span id="id6">[<a class="reference internal" href="references.html#id5" title="Zoë M. Leinhardt and Sarah T. Stewart. COLLISIONS BETWEEN GRAVITY-DOMINATED BODIES. I. OUTCOME REGIMES AND SCALING LAWS. The Astrophysical Journal, 745(1):79, jan 2012. URL: https://iopscience.iop.org/article/10.1088/0004-637X/745/1/79, doi:10.1088/0004-637X/745/1/79.">LS12</a>]</span></p>
+<span id="id6">[<a class="reference internal" href="references.html#id15" title="Zoë M. Leinhardt and Sarah T. Stewart. COLLISIONS BETWEEN GRAVITY-DOMINATED BODIES. I. OUTCOME REGIMES AND SCALING LAWS. The Astrophysical Journal, 745(1):79, jan 2012. URL: https://iopscience.iop.org/article/10.1088/0004-637X/745/1/79, doi:10.1088/0004-637X/745/1/79.">LS12</a>]</span></p>
 <div class="section" id="explanation-of-the-collision-outcome-regimes">
 <h3>Explanation of the Collision Outcome Regimes<a class="headerlink" href="#explanation-of-the-collision-outcome-regimes" title="Permalink to this headline">¶</a></h3>
 <p>Generally, the outcome of collisions between similar-sized bodies can
@@ -346,13 +358,13 @@ the mutual escape velocity. <span class="math notranslate nohighlight">\(M_p\)</
 is the target mass; <span class="math notranslate nohighlight">\(V_i\)</span> is the impact velocity. The impact angle
 axis is normalized by probability (e.g., 1/4 of all events occur
 between 0 and 30 degrees).</p>
-<p>Figure 11 from <span id="id7">[<a class="reference internal" href="references.html#id5" title="Zoë M. Leinhardt and Sarah T. Stewart. COLLISIONS BETWEEN GRAVITY-DOMINATED BODIES. I. OUTCOME REGIMES AND SCALING LAWS. The Astrophysical Journal, 745(1):79, jan 2012. URL: https://iopscience.iop.org/article/10.1088/0004-637X/745/1/79, doi:10.1088/0004-637X/745/1/79.">LS12</a>]</span><br>
+<p>Figure 11 from <span id="id7">[<a class="reference internal" href="references.html#id15" title="Zoë M. Leinhardt and Sarah T. Stewart. COLLISIONS BETWEEN GRAVITY-DOMINATED BODIES. I. OUTCOME REGIMES AND SCALING LAWS. The Astrophysical Journal, 745(1):79, jan 2012. URL: https://iopscience.iop.org/article/10.1088/0004-637X/745/1/79, doi:10.1088/0004-637X/745/1/79.">LS12</a>]</span><br>
 <img
 src="https://drive.google.com/uc?export=view&id=1DyewKCG_4KAebHi2I0IRgWUhMDs7MUXI"></p>
 <p>The mass of the largest remnant is approximately linear with
 normalized specific impact energy. At larger impact energies, the size
 of the largest remnant falls of exponentially.<p></p>
-<p>Figure 3 from <span id="id8">[<a class="reference internal" href="references.html#id5" title="Zoë M. Leinhardt and Sarah T. Stewart. COLLISIONS BETWEEN GRAVITY-DOMINATED BODIES. I. OUTCOME REGIMES AND SCALING LAWS. The Astrophysical Journal, 745(1):79, jan 2012. URL: https://iopscience.iop.org/article/10.1088/0004-637X/745/1/79, doi:10.1088/0004-637X/745/1/79.">LS12</a>]</span><br>
+<p>Figure 3 from <span id="id8">[<a class="reference internal" href="references.html#id15" title="Zoë M. Leinhardt and Sarah T. Stewart. COLLISIONS BETWEEN GRAVITY-DOMINATED BODIES. I. OUTCOME REGIMES AND SCALING LAWS. The Astrophysical Journal, 745(1):79, jan 2012. URL: https://iopscience.iop.org/article/10.1088/0004-637X/745/1/79, doi:10.1088/0004-637X/745/1/79.">LS12</a>]</span><br>
 <img
 src="https://drive.google.com/uc?export=view&id=1nAiK1aUrLH8Bi2CF4hdSLg0kA_igfAWy"></p>
 </div>
@@ -391,10 +403,10 @@ src="https://drive.google.com/uc?export=view&id=1nAiK1aUrLH8Bi2CF4hdSLg0kA_igfAW
             <p class="prev-next-title">Environmental Effects from Impact Cratering</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="references.html" title="next page">
+    <a class='right-next' id="next-link" href="other-tools.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Bibliography</p>
+        <p class="prev-next-title">Other Helpful Tools</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
