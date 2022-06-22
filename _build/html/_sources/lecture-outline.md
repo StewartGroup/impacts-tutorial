@@ -4,12 +4,14 @@ Outline and references for Sarah Stewart's CIDER lecture. The
 references are not an exhaustive list! Ask STS for references related
 to your questions.
 
-
 ### Copy of lecture slides
 
 <a
 href="https://drive.google.com/file/d/1x6NgUX84Qvl_4lNyiG6PAhS6GZsqEhhu/view?usp=sharing">PDF file</a>
 
+The videos of the lecture and tutorial will be posted on the <a href="https://www.deep-earth.org/summer22">CIDER web site</a>. 
+
+STS did not cover Part III.
 
 ### Ask questions! now and later 
 
@@ -83,7 +85,7 @@ Review articles on the origin of the Moon: {cite}`Canup2021`;
 ## Part II: Late Accretion delivers metals and volatiles
 
 After formation of the Moon, approximately 0.5wt% of Earth's mass was
-added. The main evidence for this 'late accretion' is the presence of
+added {cite}`Drake2002`. The main evidence for this 'late accretion' is the presence of
 highly siderophile elements (HSE) in the mantle at abundances far
 greater than expected from metal-silicate equilibration during core
 formation. The relative proportions of the HSEs (e.g., platiunum group
@@ -91,12 +93,14 @@ elements) is similar to that found in bulk chondrites, which is
 interpreted as a late delivery by planetesimals without communication
 with the core.
 
-Previously, late accretion (also called the late veneer) was assumed
+Previously, late accretion (also called the late veneer; some subtle
+differences in usage are explained in {cite}`Morbidelli2015`) was assumed
 to deliver much of Earth's volatiles. Today, we know that most of
 Earth's water and other volatiles were delivered during the main stage
 of planet formation and only a small portion of major volatiles were
-delivered late. However, some rare gases are dominated by delivery
-from late accretion. 
+delivered late {cite}`Halliday2013`. However, some rare gases in the
+atmosphere are dominated by delivery
+from late accretion (e.g., Xe, Kr). 
 
 Guiding questions:<br>
 <ul>
