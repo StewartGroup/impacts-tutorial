@@ -24,4 +24,4 @@ HERE</a>; <a
 href="http://online.kitp.ucsb.edu/online/earth14/asimow1">VIDEO
 HERE</a>) and {cite}`Asimow2015`.
 
-More information is availble on <a href="https://sarahtstewart.net>sarahtstewart.net</a>.
+More information is availble on <a href="https://sarahtstewart.net">sarahtstewart.net</a>.
