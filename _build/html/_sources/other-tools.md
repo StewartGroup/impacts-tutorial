@@ -23,3 +23,5 @@ href="https://www.deep-earth.org/wiki_cider/images/a/ad/CIDER_2014_Asimow_lectur
 HERE</a>; <a
 href="http://online.kitp.ucsb.edu/online/earth14/asimow1">VIDEO
 HERE</a>) and {cite}`Asimow2015`.
+
+More information is availble on <a href="https://sarahtstewart.net>sarahtstewart.net</a>.

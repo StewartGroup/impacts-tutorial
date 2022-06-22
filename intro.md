@@ -11,6 +11,10 @@ href="https://docs.google.com/document/d/1vIdzpq-K4kRo9Ydi-eLscc48TDFWCJ06ULwoTI
 target="_blank">Link 
 to CIDER Lecture Schedule</a><p>
 
+<a href="https://drive.google.com/file/d/1x6NgUX84Qvl_4lNyiG6PAhS6GZsqEhhu/view?usp=sharing">Lecture slides PDF</a> and <a href="https://drive.google.com/file/d/1A6ysy2vET17IcbduLlOjisopLu25ogzk/view?usp=sharing">Tutorial Slides PDF</a>.
+
+Videos are available on <a href="https://www.youtube.com/channel/UCQqDSwCRG0WrnlZaIRCd-_Q">STS's YouTube Channel</a>.
+
 ### Ask questions! now and later
 
 Please use this <a

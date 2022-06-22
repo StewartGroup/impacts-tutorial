@@ -4,12 +4,14 @@ Outline and references for Sarah Stewart's CIDER lecture. The
 references are not an exhaustive list! Ask STS for references related
 to your questions.
 
-### Copy of lecture slides
+### Copy of lecture materials
 
-<a
+The lecture slides are available in this <a
 href="https://drive.google.com/file/d/1x6NgUX84Qvl_4lNyiG6PAhS6GZsqEhhu/view?usp=sharing">PDF file</a>
 
-The videos of the lecture and tutorial will be posted on the <a href="https://www.deep-earth.org/summer22">CIDER web site</a>. 
+Impact animations and videos are available on <a href="https://www.youtube.com/channel/UCQqDSwCRG0WrnlZaIRCd-_Q">STS's YouTube Channel</a>.
+
+The video recordings of the lecture and tutorial will be posted on the <a href="https://www.deep-earth.org/summer22">CIDER web site</a>. 
 
 STS did not cover Part III.
 

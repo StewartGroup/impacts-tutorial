@@ -3,6 +3,10 @@
 Using the tools introduced in this tutorial, you should be able to calculate
 order of magnitude estimates for the following problems.
 
+The <a href="https://drive.google.com/file/d/1A6ysy2vET17IcbduLlOjisopLu25ogzk/view?usp=sharing">introductory slides for the tutorial</a> are available here.
+
+Impact animations are available on <a href="https://www.youtube.com/channel/UCQqDSwCRG0WrnlZaIRCd-_Q">STS's YouTube Channel</a>.
+
 ## Asteroid vs. comet?
 
 You observe a 10 km diameter crater on Mars. Assume typical asteroids collide
